@@ -1,4 +1,5 @@
 // src/main.rs
+// Just a single-node and non-pipelining
 use bytes::{Buf, BytesMut};
 use fxhash::FxHasher;
 use std::{
@@ -191,3 +192,5 @@ async fn main() -> anyhow::Result<()> {
         });
     }
 }
+
+// Got some issues with SET command, not properly working.
