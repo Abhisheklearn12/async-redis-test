@@ -1,4 +1,4 @@
-// src/main.rs
+// Redis concept
 // Just a single-node and non-pipelining
 use bytes::{Buf, BytesMut};
 use fxhash::FxHasher;
